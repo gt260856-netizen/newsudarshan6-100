@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Trade With Sudarshan – Join on Telegram</title>
+<meta name="description" content="Free stock market education in simple Telugu and English: market basics, chart reading and daily market news explained.">
+<meta name="theme-color" content="#071a2b">
+<script>
+  var TELEGRAM_LINK    = "https://t.me/+PPgagYDf41kxMDg1";
+  var REVISIT_REDIRECT = true;  // true = pehle join kar chuke log seedha Telegram jaayein, false = sabko page dikhe
+
+  // Revisit check: pehle button daba chuka hai to page chhupa do (PageView ke baad Telegram)
+  var TEST_MODE = /[?&]test=1/.test(location.search);  // testing: link ke end me ?test=1
+  var IS_REVISIT=false;
+  (function(){
+    if(!REVISIT_REDIRECT) return;
+    if(TEST_MODE || location.search.indexOf("stay=1")>-1) return;   // test/stay mode me page hamesha dikhe
+    try{ IS_REVISIT = localStorage.getItem("tws_sub")==="1"; }catch(e){}
+    if(!IS_REVISIT) IS_REVISIT = /(?:^|; )tws_sub=1/.test(document.cookie);
+    if(IS_REVISIT){
+      var st=document.createElement("style");
+      st.textContent="html{background:#071a2b}body{visibility:hidden}";
+      document.head.appendChild(st);
+    }
+  })();
+</script>
+<!-- Meta Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  // Meta ke automatic events band (SubscribedButtonClick, Microdata) - Subscribe sirf hamare code se
+  fbq('set', 'autoConfig', false, '1413908223503482');
+  fbq('init', '1413908223503482');
+  fbq('track', 'PageView');
+
+  // Revisit: Pixel load hokar PageView bhej de, phir Telegram (max 1.5 sec wait)
+  if(IS_REVISIT){
+    var go=false, startT=Date.now();
+    function goTG(){ if(go) return; go=true; location.replace(TELEGRAM_LINK); }
+    (function wait(){
+      if(window.fbq && window.fbq.callMethod) return setTimeout(goTG,300);
+      if(Date.now()-startT>1500) return goTG();
+      setTimeout(wait,50);
+    })();
+  }
+</script>
+<noscript><img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=1413908223503482&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel Code -->
+<style>
+  :root{--y:#f59e0b;--r:#0d9488;--r2:#0f766e;--ink:#0f1c2a;--muted:#5b6b7a;--line:#e3eaf1}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans Telugu","Telugu Sangam MN",Arial,sans-serif;
+    color:var(--ink);min-height:100vh;min-height:100dvh;
+    display:flex;align-items:center;justify-content:center;padding:16px;
+    background:
+      radial-gradient(circle at 0% 0%,rgba(13,148,136,.45),transparent 50%),
+      radial-gradient(circle at 100% 100%,rgba(245,158,11,.30),transparent 50%),
+      #071a2b;
+    -webkit-font-smoothing:antialiased;
+  }
+  .card{
+    width:100%;max-width:400px;background:#fbfdff;border-radius:24px;
+    padding:0 18px 18px;text-align:center;position:relative;overflow:hidden;
+    box-shadow:0 22px 50px rgba(0,0,0,.5);
+  }
+  .band{display:flex;height:6px;margin:0 -18px 20px}
+  .band i{flex:1}.band i:first-child{background:var(--y)}.band i:last-child{background:var(--r)}
+  .logo{width:96px;height:96px;margin:0 auto 12px;border-radius:50%;box-shadow:0 0 0 4px #fff,0 0 0 6px var(--y),0 10px 22px rgba(13,148,136,.3)}
+  .logo{overflow:hidden}
+  .logo img{display:block;width:100%;height:100%;object-fit:cover;border-radius:50%;background:#fff}
+  .namaskara{display:inline-block;font-size:13px;font-weight:700;color:#b45309;background:#fff4dc;border-radius:99px;padding:4px 12px;margin-bottom:8px}
+  h1{font-size:25px;font-weight:900;letter-spacing:-.3px;line-height:1.15}
+  h1 span{color:var(--r)}
+  .kn{font-size:15.5px;font-weight:700;color:var(--r2);margin-top:6px;line-height:1.5}
+  .sub{color:var(--muted);font-size:14px;margin-top:2px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:16px 0}
+  .item{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 8px;text-align:left;display:flex;gap:8px;align-items:center}
+  .item .ic{width:30px;height:30px;flex:0 0 30px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:15px}
+  .y{background:#fff4dc}.rd{background:#d9f5f1}
+  .item b{display:block;font-size:12.5px;line-height:1.2}
+  .item small{display:block;font-size:11.5px;color:var(--muted);line-height:1.3;margin-top:1px}
+  .cta{
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    width:100%;padding:15px 12px;border-radius:16px;
+    font-size:clamp(13px,4vw,16px);font-weight:900;color:#fff;text-decoration:none;white-space:nowrap;
+    background:linear-gradient(135deg,#14b8a6,var(--r) 50%,var(--r2));
+    box-shadow:0 10px 24px rgba(13,148,136,.35),inset 0 -3px 0 rgba(0,0,0,.15);
+    -webkit-tap-highlight-color:transparent;
+  }
+  .cta svg{width:22px;height:22px;flex:0 0 22px}
+  .cta.wait{opacity:.7;pointer-events:none}
+  .cta.ready{animation:g 1.6s infinite}
+  @keyframes g{50%{transform:scale(1.025);box-shadow:0 10px 32px rgba(13,148,136,.55),inset 0 -3px 0 rgba(0,0,0,.15)}}
+  .free{margin-top:10px;font-size:12.5px;color:var(--muted)}
+  .free b{color:#15803d}
+  hr{border:0;border-top:1px solid var(--line);margin:14px 0 10px}
+  .disc{font-size:11.5px;color:#7a8794;line-height:1.55}
+  .disc b{color:#475569}
+  .links{margin-top:8px;font-size:12px}
+  .links a{color:#7a8794;text-decoration:none}
+
+  .modal{position:fixed;inset:0;background:rgba(7,26,43,.7);display:flex;align-items:center;justify-content:center;padding:16px;z-index:50;animation:fi .2s ease-out}
+  .modal[hidden]{display:none}
+  @keyframes fi{from{opacity:0}to{opacity:1}}
+  .mbox{position:relative;background:#fbfdff;width:100%;max-width:400px;max-height:80vh;overflow-y:auto;border-radius:18px;padding:22px 18px 18px;text-align:left;box-shadow:0 20px 50px rgba(0,0,0,.4);animation:up .25s ease-out}
+  @keyframes up{from{transform:translateY(16px);opacity:0}to{transform:none;opacity:1}}
+  .mbox h2{font-size:19px;color:var(--r2);margin-bottom:2px}
+  .mbox small{color:#7a8794;font-size:11.5px}
+  .mbox h3{font-size:14px;margin:14px 0 3px}
+  .mbox p{font-size:13px;color:#475569;line-height:1.55}
+  .mbox a{color:var(--r)}
+  .mclose{position:absolute;top:10px;right:10px;width:32px;height:32px;border:0;border-radius:50%;background:#eaf0f5;color:#475569;font-size:15px;cursor:pointer}
+  @media (max-width:350px){h1{font-size:22px}.item small{display:none}}
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="band"><i></i><i></i></div>
+
+  <div class="logo">
+    <img src="data:image/webp;base64,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" width="96" height="96" alt="Trade With Sudharshan">
+  </div>
+
+  <div class="namaskara">🙏 నమస్కారం · Namaskaram</div>
+  <h1>Trade With <span>Sudarshan</span></h1>
+  <p class="kn">సులభమైన తెలుగులో స్టాక్ మార్కెట్ నేర్చుకోండి</p>
+  <p class="sub">Learn stock market in Telugu &amp; English</p>
+
+  <div class="grid">
+    <div class="item"><span class="ic y">📘</span><span><b>Market Basics</b><small>ప్రాథమిక పాఠాలు</small></span></div>
+    <div class="item"><span class="ic rd">📊</span><span><b>Chart Reading</b><small>చార్ట్ చదవడం</small></span></div>
+    <div class="item"><span class="ic rd">📰</span><span><b>Daily Market News</b><small>రోజువారీ వార్తలు</small></span></div>
+    <div class="item"><span class="ic y">🗣️</span><span><b>Telugu Explained</b><small>తెలుగులో వివరణ</small></span></div>
+  </div>
+
+  <a id="cta" class="cta wait" href="https://t.me/+PPgagYDf41kxMDg1" rel="noopener">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#fff"/><path d="M5.5 11.8l11.6-4.5c.5-.2 1 .1.8.9l-2 9.3c-.1.6-.5.8-1 .5l-3-2.2-1.4 1.4c-.2.2-.3.3-.6.3l.2-3.1 5.6-5.1c.2-.2 0-.3-.4-.1l-6.9 4.4-3-.9c-.6-.2-.6-.6.1-.9z" fill="#0f766e"/></svg>
+    JOIN FREE TELEGRAM CHANNEL
+  </a>
+  <p class="free">🔒 <b>100% Free</b> · పూర్తిగా ఉచితం</p>
+
+  <hr>
+  <p class="disc"><b>Disclaimer:</b> This channel shares stock market education only. We do not give buy/sell recommendations, tips or signals and are not SEBI registered. Investing involves risk; please do your own research.</p>
+  <p class="links"><a href="#" id="openPrivacy">Privacy Policy</a> · <a href="mailto:tradewithsudarshan.help@gmail.com">Contact</a></p>
+</main>
+
+<div class="modal" id="privacy" role="dialog" aria-modal="true" aria-labelledby="ppTitle" hidden>
+  <div class="mbox">
+    <button class="mclose" id="closePrivacy" aria-label="Close">✕</button>
+    <h2 id="ppTitle">Privacy Policy</h2>
+    <small>Last updated: October 2026</small>
+    <h3>Who we are</h3>
+    <p>Trade With Sudarshan runs a Telegram channel that shares stock market education in Telugu and English.</p>
+    <h3>What we collect</h3>
+    <p>We do not ask for your name, phone number or email on this website. We use the Meta Pixel, which may collect technical information such as browser type, device, IP address and pages visited, to measure our ads.</p>
+    <h3>Cookies &amp; storage</h3>
+    <p>This website and the Meta Pixel use cookies and browser storage to measure visits and avoid counting the same visitor twice. You can clear or block cookies in your browser settings.</p>
+    <h3>Third parties</h3>
+    <p><b>Meta Platforms</b> for ad measurement (<a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener">Meta Privacy Policy</a>). When you join our channel, <b>Telegram's</b> privacy policy applies.</p>
+    <h3>Not financial advice</h3>
+    <p>All content is for educational purposes only. We do not give buy/sell recommendations, tips or signals.</p>
+    <h3>Contact</h3>
+    <p><a href="mailto:tradewithsudarshan.help@gmail.com">tradewithsudarshan.help@gmail.com</a></p>
+  </div>
+</div>
+
+<script>
+  var CLICK_DELAY = 0.3; // button turant dikhta hai, click itne second baad hoga
+
+  var cta=document.getElementById("cta");
+  cta.href=TELEGRAM_LINK;
+  setTimeout(function(){cta.classList.remove("wait");cta.classList.add("ready");},CLICK_DELAY*1000);
+
+  // ---- Duplicate rokne ke liye: localStorage + cookie ----
+  function getCookie(n){var m=document.cookie.match(new RegExp("(?:^|; )"+n+"=([^;]*)"));return m?decodeURIComponent(m[1]):null;}
+  function alreadySubscribed(){
+    var ls=null; try{ ls=localStorage.getItem("tws_sub"); }catch(e){}
+    return ls==="1" || getCookie("tws_sub")==="1";
+  }
+  function markSubscribed(){
+    try{ localStorage.setItem("tws_sub","1"); }catch(e){}
+    document.cookie="tws_sub=1; max-age="+(60*60*24*90)+"; path=/; SameSite=Lax"; // 90 din
+  }
+
+  // ---- Asli user check ----
+  var touched=false, fired=false, loadedAt=Date.now();
+  ["pointerdown","touchstart","mousedown"].forEach(function(ev){
+    cta.addEventListener(ev,function(e){ if(e.isTrusted) touched=true; },{passive:true});
+  });
+
+  cta.addEventListener("click",function(e){
+    e.preventDefault();
+    if(fired) return;
+    var realUser = e.isTrusted && touched && (Date.now()-loadedAt) >= CLICK_DELAY*1000 && !navigator.webdriver;
+    fired=true;
+    if(TEST_MODE) testMsg(realUser ? "✅ Subscribe event bheja gaya" : "🤖 Bot/fake click – event nahi gaya");
+    if(realUser && (TEST_MODE || !alreadySubscribed())){
+      var eventId = "sub_" + Date.now() + "_" + Math.random().toString(36).slice(2,10);
+      if(window.fbq) fbq('track','Subscribe',{},{eventID:eventId});   // sirf pehli baar
+      if(!TEST_MODE) markSubscribed();   // test mode me yaad nahi rakhta, baar-baar test kar sako
+    }
+    setTimeout(function(){ window.location.href=TELEGRAM_LINK; }, TEST_MODE ? 1500 : 300);
+  });
+
+  // Back button se wapas aaye to button phir kaam kare
+  window.addEventListener("pageshow",function(e){ if(e.persisted) fired=false; });
+
+  // ---- Test mode badge ----
+  function testMsg(t){ var b=document.getElementById("tbadge"); if(b) b.textContent="TEST MODE · "+t; }
+  if(TEST_MODE){
+    var tb=document.createElement("div"); tb.id="tbadge";
+    tb.style.cssText="position:fixed;top:0;left:0;right:0;z-index:99;background:#ffcc00;color:#111;font:700 12.5px system-ui,sans-serif;text-align:center;padding:8px";
+    document.body.appendChild(tb);
+    testMsg("PageView bheja gaya · ab button dabao");
+  }
+
+  // Privacy popup
+  var pp=document.getElementById("privacy");
+  function openPP(e){ if(e) e.preventDefault(); pp.hidden=false; document.body.style.overflow="hidden"; }
+  function closePP(){ pp.hidden=true; document.body.style.overflow=""; }
+  document.getElementById("openPrivacy").addEventListener("click",openPP);
+  document.getElementById("closePrivacy").addEventListener("click",closePP);
+  pp.addEventListener("click",function(e){ if(e.target===pp) closePP(); });
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape" && !pp.hidden) closePP(); });
+</script>
+</body>
+</html>
